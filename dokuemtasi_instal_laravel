@@ -1,0 +1,22 @@
+# Instalasi Laravel
+
+Panduan untuk menginstal Laravel secara lokal di komputer .
+
+## Persyaratan Sistem
+- PHP >= 8.1 Di Sarankan PHP 8.3
+- Composer
+- MySQL
+- Laravel CLI (opsional)
+- Node.js & npm (opsional untuk frontend)
+
+## Langkah-langkah Instalasi
+
+1. *Jalankan Perintah Intalasi Laravel Di Terminal Laragon*
+```bash
+
+composer create-project laravel/laravel Nama-Project (Jika Ingin Menggunakan Versi Laravel Terbaru)
+
+composer create-project laravel/laravel:^11.0 Nama-Project (Jika Ingin Menggunakan Versi Laravel Yang Di Tentukan)
+
+2. ** Lalu Tunggu Hingga Selesai **
+3. ** Jika Terminal Sudah menampilkan DONE Maka Aplikasi Laravel Siap Di gunakan  **
